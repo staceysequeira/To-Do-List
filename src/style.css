@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: linear-gradient(to bottom, #6600cc 0%, #9900cc 65%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.checked {
+  background-color: #aaa;
+  color: white;
+  text-decoration: line-through;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+.btn.btn-outline-light {
+  border: solid white;
+}
+
+.btn.btn-outline-danger {
+  background-color: white !important;
+  color: #cd22e0 !important;
+  border: solid #cd22e0 !important;
+}

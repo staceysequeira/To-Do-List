@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>To Do List</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -12,18 +12,22 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
+
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <div class="container mt-5" style="color: white" ;>
+      <h2>To Do List</h2>
+      <form id="todo-form">
+        <input
+          type="text"
+          id="form-inputs"
+          class="form-control mt-3"
+          placeholder="To be done"
+        />
+        <button type="submit" class="btn btn-outline-light mt-3">
+          Add
+        </button>
+      </form>
+      <ul id="todo-list" class="list-group mt-3"></ul>
     </div>
   </body>
 </html>
